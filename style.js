@@ -31,6 +31,7 @@ $(function() {
 
 });
 
+
 //countdown timer//
 var end = new Date('08/26/2017 5:00 PM');
 
@@ -46,7 +47,7 @@ var end = new Date('08/26/2017 5:00 PM');
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'Just Married!';
+            document.getElementById("countdown").innerHTML = 'Just Married!';
 
             return;
         }
